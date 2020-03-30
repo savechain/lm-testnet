@@ -437,7 +437,7 @@ func New(config Config, notify []string, noverify bool) *Ethash {
 		config.Log = log.Root()
 	}
 	if config.CachesInMem <= 0 {
-		config.Log.Warn("One lmhash cache must always be in memory", "requested", config.CachesInMem)
+		config.Log.Warn("One lmhash cache must always be in memory ", "requested", config.CachesInMem)
 		config.CachesInMem = 1
 	}
 	//tom修改

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3001ef33-86f6-404f-aca4-c81775d7c22f" name="Default Changelist" comment="" />
+    <list default="true" id="3001ef33-86f6-404f-aca4-c81775d7c22f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/consensus/ethash/ethash.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/ethash/ethash.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,7 +11,7 @@
   </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/lmchain-testnet" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
