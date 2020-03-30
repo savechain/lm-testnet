@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3001ef33-86f6-404f-aca4-c81775d7c22f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/consensus/ethash/ethash.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/ethash/ethash.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/backend.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/backend.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -90,6 +92,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/lmchain-testnet" />
+    </ignored-roots>
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
     <proxy>direct</proxy>
@@ -123,14 +130,16 @@
     </state>
     <state width="1340" height="233" key="GridCell.Tab.0.right/0.23.1440.841@0.23.1440.841" timestamp="1585480699655" />
     <state width="1340" height="200" key="GridCell.Tab.0.right/0.23.1440.842@0.23.1440.842" timestamp="1585481759699" />
-    <state x="243" y="32" key="SettingsEditor" timestamp="1585459537326">
-      <screen x="0" y="23" width="1440" height="844" />
+    <state x="243" y="32" key="SettingsEditor" timestamp="1585574119434">
+      <screen x="0" y="23" width="1440" height="843" />
     </state>
+    <state x="243" y="32" key="SettingsEditor/0.23.1440.843@0.23.1440.843" timestamp="1585574119434" />
     <state x="243" y="32" key="SettingsEditor/0.23.1440.844@0.23.1440.844" timestamp="1585459537326" />
-    <state x="407" y="43" width="816" height="822" key="find.popup" timestamp="1585573327836">
-      <screen x="0" y="23" width="1440" height="842" />
+    <state x="407" y="43" width="816" height="823" key="find.popup" timestamp="1585574214064">
+      <screen x="0" y="23" width="1440" height="843" />
     </state>
     <state x="388" y="123" width="816" height="550" key="find.popup/0.23.1440.841@0.23.1440.841" timestamp="1585484389673" />
     <state x="407" y="43" width="816" height="822" key="find.popup/0.23.1440.842@0.23.1440.842" timestamp="1585573327836" />
+    <state x="407" y="43" width="816" height="823" key="find.popup/0.23.1440.843@0.23.1440.843" timestamp="1585574214064" />
   </component>
 </project>
