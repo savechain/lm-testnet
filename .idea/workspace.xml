@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3001ef33-86f6-404f-aca4-c81775d7c22f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/lmchain-testnet" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1Zmp909HUhsL4cGbWMdOHuVmzjd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/totoro" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/totoro" />
+      <recent name="$PROJECT_DIR$/cmd" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestWelcome in github.com/ethereum/go-ethereum/console">
+    <configuration name="go build github.com/ethereum/go-ethereum/cmd/geth" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lm-testnet" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/cmd/geth/main.go" />
+      <package value="github.com/ethereum/go-ethereum/cmd/geth" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestWelcome in github.com/ethereum/go-ethereum/console" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="lm-testnet" />
+      <working_directory value="$PROJECT_DIR$/console" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/ethereum/go-ethereum/console" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestWelcome$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestWelcome in github.com/ethereum/go-ethereum/console" />
+        <item itemvalue="Go Build.go build github.com/ethereum/go-ethereum/cmd/geth" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>direct</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="69" key="#Go_Modules_(vgo)" timestamp="1585453982060">
+      <screen x="0" y="23" width="1440" height="841" />
+    </state>
+    <state x="392" y="69" key="#Go_Modules_(vgo)/0.23.1440.841@0.23.1440.841" timestamp="1585453982060" />
+    <state x="456" y="253" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585568605185">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state x="456" y="253" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.842@0.23.1440.842" timestamp="1585568605185" />
+    <state width="1340" height="200" key="GridCell.Tab.0.bottom" timestamp="1585481759699">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state width="1340" height="233" key="GridCell.Tab.0.bottom/0.23.1440.841@0.23.1440.841" timestamp="1585480699656" />
+    <state width="1340" height="200" key="GridCell.Tab.0.bottom/0.23.1440.842@0.23.1440.842" timestamp="1585481759699" />
+    <state width="1340" height="200" key="GridCell.Tab.0.center" timestamp="1585481759698">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state width="1340" height="233" key="GridCell.Tab.0.center/0.23.1440.841@0.23.1440.841" timestamp="1585480699655" />
+    <state width="1340" height="200" key="GridCell.Tab.0.center/0.23.1440.842@0.23.1440.842" timestamp="1585481759698" />
+    <state width="1340" height="200" key="GridCell.Tab.0.left" timestamp="1585481759698">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state width="1340" height="233" key="GridCell.Tab.0.left/0.23.1440.841@0.23.1440.841" timestamp="1585480699655" />
+    <state width="1340" height="200" key="GridCell.Tab.0.left/0.23.1440.842@0.23.1440.842" timestamp="1585481759698" />
+    <state width="1340" height="200" key="GridCell.Tab.0.right" timestamp="1585481759699">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state width="1340" height="233" key="GridCell.Tab.0.right/0.23.1440.841@0.23.1440.841" timestamp="1585480699655" />
+    <state width="1340" height="200" key="GridCell.Tab.0.right/0.23.1440.842@0.23.1440.842" timestamp="1585481759699" />
+    <state x="243" y="32" key="SettingsEditor" timestamp="1585459537326">
+      <screen x="0" y="23" width="1440" height="844" />
+    </state>
+    <state x="243" y="32" key="SettingsEditor/0.23.1440.844@0.23.1440.844" timestamp="1585459537326" />
+    <state x="407" y="43" width="816" height="822" key="find.popup" timestamp="1585573327836">
+      <screen x="0" y="23" width="1440" height="842" />
+    </state>
+    <state x="388" y="123" width="816" height="550" key="find.popup/0.23.1440.841@0.23.1440.841" timestamp="1585484389673" />
+    <state x="407" y="43" width="816" height="822" key="find.popup/0.23.1440.842@0.23.1440.842" timestamp="1585573327836" />
+  </component>
+</project>
