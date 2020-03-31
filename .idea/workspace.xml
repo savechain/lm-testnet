@@ -4,7 +4,6 @@
     <list default="true" id="3001ef33-86f6-404f-aca4-c81775d7c22f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/bin/lm" beforeDir="false" afterPath="$PROJECT_DIR$/build/bin/lm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,11 +134,11 @@
     </state>
     <state x="243" y="32" key="SettingsEditor/0.23.1440.843@0.23.1440.843" timestamp="1585574119434" />
     <state x="243" y="32" key="SettingsEditor/0.23.1440.844@0.23.1440.844" timestamp="1585459537326" />
-    <state x="407" y="43" width="816" height="823" key="find.popup" timestamp="1585574214064">
-      <screen x="0" y="23" width="1440" height="843" />
+    <state x="407" y="43" width="816" height="822" key="find.popup" timestamp="1585576375887">
+      <screen x="0" y="23" width="1440" height="842" />
     </state>
     <state x="388" y="123" width="816" height="550" key="find.popup/0.23.1440.841@0.23.1440.841" timestamp="1585484389673" />
-    <state x="407" y="43" width="816" height="822" key="find.popup/0.23.1440.842@0.23.1440.842" timestamp="1585573327836" />
+    <state x="407" y="43" width="816" height="822" key="find.popup/0.23.1440.842@0.23.1440.842" timestamp="1585576375887" />
     <state x="407" y="43" width="816" height="823" key="find.popup/0.23.1440.843@0.23.1440.843" timestamp="1585574214064" />
   </component>
 </project>
