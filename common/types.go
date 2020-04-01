@@ -37,6 +37,7 @@ const (
 	HashLength = 32
 	// AddressLength is the expected length of the address
 	AddressLength = 20
+	//tom修改地址
 )
 
 var (

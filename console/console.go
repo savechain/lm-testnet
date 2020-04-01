@@ -253,7 +253,7 @@ func (c *Console) initlmpersonal(vm *goja.Runtime, bridge *bridge) {
 
 	if lmpersonal := getObject(vm, "lmpersonal"); lmpersonal != nil {
 
-		lmpersonal.Set("lmnewAccount", jsre.MakeCallback(vm, bridge.NewAccount))
+		lmpersonal.Set("lmnewAccount", jsre.MakeCallback(vm, bridge.LMNewAccount))
 	}
 
 }
