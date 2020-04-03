@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3001ef33-86f6-404f-aca4-c81775d7c22f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/bin/geth" beforeDir="false" afterPath="$PROJECT_DIR$/build/bin/geth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/genesis.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/genesis.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/lm/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/params/bootnodes.go" beforeDir="false" afterPath="$PROJECT_DIR$/params/bootnodes.go" afterDir="false" />
-    </list>
+    <list default="true" id="3001ef33-86f6-404f-aca4-c81775d7c22f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
