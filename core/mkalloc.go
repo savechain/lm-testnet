@@ -27,11 +27,13 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"math/big"
 	"os"
 	"sort"
 	"strconv"
+
 	"github.com/ethereum/go-ethereum/core"
 	"github.com/ethereum/go-ethereum/rlp"
 )
@@ -66,17 +68,14 @@ func makealloc(g *core.Genesis) string {
 	return strconv.QuoteToASCII(string(data))
 }
 
-
 func main() {
-	//if len(os.Args) != 2 {
-	//	fmt.Fprintln(os.Stderr, "Usage: mkalloc genesis.json")
-	//	os.Exit(1)
-	//}
-
+	if len(os.Args) != 2 {
+		fmt.Fprintln(os.Stderr, "Usage: mkalloc genesis.json")
+		os.Exit(1)
+	}
 
 	g := new(core.Genesis)
-	file, err := os.Open("/Users/tom/Desktop/lmchain/genesis.json")
-
+	file, err := os.Open(os.Args[1])
 	if err != nil {
 		panic(err)
 	}

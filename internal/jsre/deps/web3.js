@@ -2512,7 +2512,7 @@ var Eth = require('./web3/methods/eth');
 var DB = require('./web3/methods/db');
 var Shh = require('./web3/methods/shh');
 var Net = require('./web3/methods/net');
-var personal = require('./web3/methods/personal');
+var Personal = require('./web3/methods/personal');
 var Swarm = require('./web3/methods/swarm');
 var Settings = require('./web3/settings');
 var version = require('./version.json');
@@ -2534,7 +2534,7 @@ function Web3 (provider) {
     this.db = new DB(this);
     this.shh = new Shh(this);
     this.net = new Net(this);
-    this.personal = new personal(this);
+    this.personal = new Personal(this);
     this.bzz = new Swarm(this);
     this.settings = new Settings();
     this.version = {
@@ -4292,7 +4292,7 @@ var XHR2 = require('xhr2'); // jshint ignore: line
  * HttpProvider should be used to send rpc calls over http
  */
 var HttpProvider = function (host, timeout, user, password) {
-  this.host = host || 'http://localhost:8145';
+  this.host = host || 'http://localhost:8545';
   this.timeout = timeout || 0;
   this.user = user;
   this.password = password;
@@ -5607,7 +5607,7 @@ var Method = require('../method');
 var Property = require('../property');
 var formatters = require('../formatters');
 
-function personal(web3) {
+function Personal(web3) {
     this._requestManager = web3._requestManager;
 
     var self = this;
@@ -5692,7 +5692,7 @@ var properties = function () {
 };
 
 
-module.exports = personal;
+module.exports = Personal;
 
 },{"../formatters":30,"../method":36,"../property":45}],41:[function(require,module,exports){
 /*

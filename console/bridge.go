@@ -85,51 +85,7 @@ func (b *bridge) NewAccount(call jsre.Call) (goja.Value, error) {
 		return nil, fmt.Errorf("expected 0 or 1 string argument")
 	}
 	// Password acquired, execute the call and return
-	//tom修改
 	newAccount, callable := goja.AssertFunction(getJeth(call.VM).Get("newAccount"))
-	if !callable {
-		return nil, fmt.Errorf("jeth.newAccount is not callable")
-	}
-	ret, err := newAccount(goja.Null(), call.VM.ToValue(password))
-	if err != nil {
-		return nil, err
-	}
-	return ret, nil
-}
-
-
-// NewAccount is a wrapper around the personal.newAccount RPC method that uses a
-// non-echoing password prompt to acquire the passphrase and executes the original
-// RPC method (saved in jeth.newAccount) with it to actually execute the RPC call.
-func (b *bridge) LMNewAccount(call jsre.Call) (goja.Value, error) {
-	var (
-		password string
-		confirm  string
-		err      error
-	)
-	switch {
-	// No password was specified, prompt the user for it
-	case len(call.Arguments) == 0:
-		if password, err = b.prompter.PromptPassword("Passphrase: "); err != nil {
-			return nil, err
-		}
-		if confirm, err = b.prompter.PromptPassword("Repeat passphrase: "); err != nil {
-			return nil, err
-		}
-		if password != confirm {
-			return nil, fmt.Errorf("passwords don't match!")
-		}
-	// A single string password was specified, use that
-	case len(call.Arguments) == 1 && call.Argument(0).ToString() != nil:
-		password = call.Argument(0).ToString().String()
-	default:
-		return nil, fmt.Errorf("expected 0 or 1 string argument")
-	}
-	// Password acquired, execute the call and return
-	//tom修改
-	newAccount, callable := goja.AssertFunction(getJeth(call.VM).Get("newAccount"))
-
-
 	if !callable {
 		return nil, fmt.Errorf("jeth.newAccount is not callable")
 	}

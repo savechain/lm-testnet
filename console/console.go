@@ -123,8 +123,7 @@ func (c *Console) init(preload []string) error {
 	// Add bridge overrides for web3.js functionality.
 	c.jsre.Do(func(vm *goja.Runtime) {
 		c.initAdmin(vm, bridge)
-		c.initpersonal(vm, bridge)
-		c.initlmpersonal(vm,bridge)
+		c.initPersonal(vm, bridge)
 	})
 
 	// Preload JavaScript files.
@@ -224,13 +223,13 @@ func (c *Console) initAdmin(vm *goja.Runtime, bridge *bridge) {
 	}
 }
 
-// initpersonal redirects account-related API methods through the bridge.
+// initPersonal redirects account-related API methods through the bridge.
 //
 // If the console is in interactive mode and the 'personal' API is available, override
 // the openWallet, unlockAccount, newAccount and sign methods since these require user
 // interaction. The original web3 callbacks are stored in 'jeth'. These will be called
 // by the bridge after the prompt and send the original web3 request to the backend.
-func (c *Console) initpersonal(vm *goja.Runtime, bridge *bridge) {
+func (c *Console) initPersonal(vm *goja.Runtime, bridge *bridge) {
 	personal := getObject(vm, "personal")
 	if personal == nil || c.prompter == nil {
 		return
@@ -243,22 +242,9 @@ func (c *Console) initpersonal(vm *goja.Runtime, bridge *bridge) {
 	jeth.Set("sign", personal.Get("sign"))
 	personal.Set("openWallet", jsre.MakeCallback(vm, bridge.OpenWallet))
 	personal.Set("unlockAccount", jsre.MakeCallback(vm, bridge.UnlockAccount))
-	//tom修改
 	personal.Set("newAccount", jsre.MakeCallback(vm, bridge.NewAccount))
 	personal.Set("sign", jsre.MakeCallback(vm, bridge.Sign))
-
 }
-
-func (c *Console) initlmpersonal(vm *goja.Runtime, bridge *bridge) {
-
-	if lmpersonal := getObject(vm, "lmpersonal"); lmpersonal != nil {
-
-		lmpersonal.Set("lmnewAccount", jsre.MakeCallback(vm, bridge.LMNewAccount))
-	}
-
-}
-
-
 
 func (c *Console) clearHistory() {
 	c.history = nil

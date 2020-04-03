@@ -437,15 +437,14 @@ func New(config Config, notify []string, noverify bool) *Ethash {
 		config.Log = log.Root()
 	}
 	if config.CachesInMem <= 0 {
-		config.Log.Warn("One lmhash cache must always be in memory ", "requested", config.CachesInMem)
+		config.Log.Warn("One ethash cache must always be in memory", "requested", config.CachesInMem)
 		config.CachesInMem = 1
 	}
-	//tom修改
 	if config.CacheDir != "" && config.CachesOnDisk > 0 {
-		config.Log.Info("Disk storage enabled for lmhash caches", "dir", config.CacheDir, "count", config.CachesOnDisk)
+		config.Log.Info("Disk storage enabled for ethash caches", "dir", config.CacheDir, "count", config.CachesOnDisk)
 	}
 	if config.DatasetDir != "" && config.DatasetsOnDisk > 0 {
-		config.Log.Info("Disk storage enabled for lmhash DAGs", "dir", config.DatasetDir, "count", config.DatasetsOnDisk)
+		config.Log.Info("Disk storage enabled for ethash DAGs", "dir", config.DatasetDir, "count", config.DatasetsOnDisk)
 	}
 	ethash := &Ethash{
 		config:   config,

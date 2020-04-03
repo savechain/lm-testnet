@@ -28,13 +28,12 @@ import (
 )
 
 const (
-	//tom修改TODO
 	DefaultHTTPHost    = "localhost" // Default host interface for the HTTP RPC server
-	DefaultHTTPPort    = 8145        // Default TCP port for the HTTP RPC server
+	DefaultHTTPPort    = 8545        // Default TCP port for the HTTP RPC server
 	DefaultWSHost      = "localhost" // Default host interface for the websocket RPC server
-	DefaultWSPort      = 8146        // Default TCP port for the websocket RPC server
+	DefaultWSPort      = 8546        // Default TCP port for the websocket RPC server
 	DefaultGraphQLHost = "localhost" // Default host interface for the GraphQL server
-	DefaultGraphQLPort = 8147        // Default TCP port for the GraphQL server
+	DefaultGraphQLPort = 8547        // Default TCP port for the GraphQL server
 )
 
 // DefaultConfig contains reasonable default settings.
@@ -49,9 +48,8 @@ var DefaultConfig = Config{
 	GraphQLPort:         DefaultGraphQLPort,
 	GraphQLVirtualHosts: []string{"localhost"},
 	P2P: p2p.Config{
-		//tom修改TODO
-		ListenAddr: ":30308",
-		MaxPeers:   20,
+		ListenAddr: ":30303",
+		MaxPeers:   50,
 		NAT:        nat.Any(),
 	},
 }
@@ -64,20 +62,19 @@ func DefaultDataDir() string {
 	if home != "" {
 		switch runtime.GOOS {
 		case "darwin":
-			//tom修改文件目录
-			return filepath.Join(home, "Library", "LMChain")
+			return filepath.Join(home, "Library", "Ethereum")
 		case "windows":
 			// We used to put everything in %HOME%\AppData\Roaming, but this caused
 			// problems with non-typical setups. If this fallback location exists and
 			// is non-empty, use it, otherwise DTRT and check %LOCALAPPDATA%.
-			fallback := filepath.Join(home, "AppData", "Roaming", "LMChain")
+			fallback := filepath.Join(home, "AppData", "Roaming", "Ethereum")
 			appdata := windowsAppData()
 			if appdata == "" || isNonEmptyDir(fallback) {
 				return fallback
 			}
-			return filepath.Join(appdata, "LMChain")
+			return filepath.Join(appdata, "Ethereum")
 		default:
-			return filepath.Join(home, ".lmchain")
+			return filepath.Join(home, ".ethereum")
 		}
 	}
 	// As we cannot guess a stable location, return empty and handle later

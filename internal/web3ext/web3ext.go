@@ -27,9 +27,7 @@ var Modules = map[string]string{
 	"eth":        EthJs,
 	"miner":      MinerJs,
 	"net":        NetJs,
-	"personal":   personalJs,
-	//tom修改
-	"lmpersonal": lmpersonalJs,
+	"personal":   PersonalJs,
 	"rpc":        RpcJs,
 	"shh":        ShhJs,
 	"swarmfs":    SwarmfsJs,
@@ -621,7 +619,7 @@ web3._extend({
 });
 `
 
-const personalJs = `
+const PersonalJs = `
 web3._extend({
 	property: 'personal',
 	methods: [
@@ -672,62 +670,6 @@ web3._extend({
 		new web3._extend.Property({
 			name: 'listWallets',
 			getter: 'personal_listWallets'
-		}),
-	]
-})
-`
-
-const lmpersonalJs = `
-web3._extend({
-	property: 'lmpersonal',
-	methods: [
-		new web3._extend.Method({
-			name: 'importRawKey',
-			call: 'lmpersonal_importRawKey',
-			params: 2
-		}),
-		new web3._extend.Method({
-			name: 'sign',
-			call: 'lmpersonal_sign',
-			params: 3,
-			inputFormatter: [null, web3._extend.formatters.inputAddressFormatter, null]
-		}),
-		new web3._extend.Method({
-			name: 'ecRecover',
-			call: 'lmpersonal_ecRecover',
-			params: 2
-		}),
-		new web3._extend.Method({
-			name: 'openWallet',
-			call: 'lmpersonal_openWallet',
-			params: 2
-		}),
-		new web3._extend.Method({
-			name: 'deriveAccount',
-			call: 'lmpersonal_deriveAccount',
-			params: 3
-		}),
-		new web3._extend.Method({
-			name: 'signTransaction',
-			call: 'lmpersonal_signTransaction',
-			params: 2,
-			inputFormatter: [web3._extend.formatters.inputTransactionFormatter, null]
-		}),
-		new web3._extend.Method({
-			name: 'unpair',
-			call: 'lmpersonal_unpair',
-			params: 2
-		}),
-		new web3._extend.Method({
-			name: 'initializeWallet',
-			call: 'lmpersonal_initializeWallet',
-			params: 1
-		})
-	],
-	properties: [
-		new web3._extend.Property({
-			name: 'listWallets',
-			getter: 'lmpersonal_listWallets'
 		}),
 	]
 })

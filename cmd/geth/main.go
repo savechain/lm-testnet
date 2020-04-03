@@ -197,8 +197,7 @@ func init() {
 	app.HideVersion = true // we have a command to print the version
 	app.Copyright = "Copyright 2013-2020 The go-ethereum Authors"
 	app.Commands = []cli.Command{
-		//
-		//personal.newAccount("qq520099")See chaincmd.go:
+		// See chaincmd.go:
 		initCommand,
 		importCommand,
 		exportCommand,
