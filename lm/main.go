@@ -47,7 +47,7 @@ import (
 
 const (
 	//tom修改
-	clientIdentifier = "lm" // Client identifier to advertise over the network
+	clientIdentifier = "geth" // Client identifier to advertise over the network
 )
 
 var (
