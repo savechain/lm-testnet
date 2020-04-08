@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3001ef33-86f6-404f-aca4-c81775d7c22f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/bin/geth" beforeDir="false" afterPath="$PROJECT_DIR$/build/bin/geth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/checkpoint-admin/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/checkpoint-admin/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/clef/datatypes.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/clef/datatypes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/clef/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/clef/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/faucet/faucet.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/faucet/faucet.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/wnode/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/wnode/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consensus/ethash/consensus.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/ethash/consensus.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/ethapi/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/ethapi/api.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/accountcmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/accountcmd.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/accountcmd_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/accountcmd_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/chaincmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/chaincmd.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/consolecmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/consolecmd.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/consolecmd_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/consolecmd_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/dao_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/dao_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/genesis_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/genesis_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/misccmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/misccmd.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/retesteth.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/retesteth.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/retesteth_copypaste.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/retesteth_copypaste.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/run_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/run_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/testdata/empty.js" beforeDir="false" afterPath="$PROJECT_DIR$/save/testdata/empty.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/testdata/guswallet.json" beforeDir="false" afterPath="$PROJECT_DIR$/save/testdata/guswallet.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/testdata/passwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/save/testdata/passwords.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/testdata/wrong-passwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/save/testdata/wrong-passwords.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lm/usage.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/usage.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miner/stress_clique.go" beforeDir="false" afterPath="$PROJECT_DIR$/miner/stress_clique.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/defaults.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/defaults.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p2p/discover/v4_udp_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discover/v4_udp_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/params/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/params/config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/solidity/test/opCodes.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/solidity/test/opCodes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/solidity/truffle-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/solidity/truffle-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lm-testnet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/savechain.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +57,7 @@
   </component>
   <component name="RunManager" selected="Go Build.go build github.com/ethereum/go-ethereum/cmd/geth console">
     <configuration name="go build github.com/ethereum/go-ethereum/cmd/geth console" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="lm-testnet" />
+      <module name="savechain" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/cmd/geth/main.go" />
@@ -98,7 +66,7 @@
       <method v="2" />
     </configuration>
     <configuration name="go build github.com/ethereum/go-ethereum/lm" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="lm-testnet" />
+      <module name="savechain" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/lm/main.go" />
@@ -107,7 +75,7 @@
       <method v="2" />
     </configuration>
     <configuration name="TestWelcome in github.com/ethereum/go-ethereum/console" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="lm-testnet" />
+      <module name="savechain" />
       <working_directory value="$PROJECT_DIR$/console" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
