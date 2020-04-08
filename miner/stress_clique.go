@@ -47,7 +47,6 @@ import (
 func main() {
 	log.Root().SetHandler(log.LvlFilterHandler(log.LvlInfo, log.StreamHandler(os.Stderr, log.TerminalFormat(true))))
 	fdlimit.Raise(2048)
-
 	// Generate a batch of accounts to seal and fund with
 	faucets := make([]*ecdsa.PrivateKey, 128)
 	for i := 0; i < len(faucets); i++ {

@@ -1317,6 +1317,9 @@ func (s *PublicTransactionPoolAPI) GetTransactionReceipt(ctx context.Context, ha
 	}
 
 	// Assign receipt status or post state.
+
+	log.Info("Loaded local transaction journal", "PostState", receipt.PostState, "status", receipt.Status)
+
 	if len(receipt.PostState) > 0 {
 		fields["root"] = hexutil.Bytes(receipt.PostState)
 	} else {

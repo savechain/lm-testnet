@@ -2,7 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3001ef33-86f6-404f-aca4-c81775d7c22f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/params/bootnodes.go" beforeDir="false" afterPath="$PROJECT_DIR$/params/bootnodes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bin/geth" beforeDir="false" afterPath="$PROJECT_DIR$/build/bin/geth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/checkpoint-admin/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/checkpoint-admin/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/clef/datatypes.md" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/clef/datatypes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/clef/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/clef/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/faucet/faucet.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/faucet/faucet.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/wnode/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/wnode/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/ethash/consensus.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/ethash/consensus.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/ethapi/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/ethapi/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lm/accountcmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/accountcmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lm/accountcmd_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/accountcmd_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lm/chaincmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/chaincmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lm/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lm/consolecmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/consolecmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lm/consolecmd_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/consolecmd_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lm/dao_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/dao_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lm/genesis_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/genesis_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lm/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lm/misccmd.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/misccmd.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lm/retesteth.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/retesteth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lm/retesteth_copypaste.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/retesteth_copypaste.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lm/run_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/run_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lm/testdata/empty.js" beforeDir="false" afterPath="$PROJECT_DIR$/save/testdata/empty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lm/testdata/guswallet.json" beforeDir="false" afterPath="$PROJECT_DIR$/save/testdata/guswallet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lm/testdata/passwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/save/testdata/passwords.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lm/testdata/wrong-passwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/save/testdata/wrong-passwords.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lm/usage.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/usage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miner/stress_clique.go" beforeDir="false" afterPath="$PROJECT_DIR$/miner/stress_clique.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/defaults.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/defaults.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2p/discover/v4_udp_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/p2p/discover/v4_udp_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/params/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/params/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/solidity/test/opCodes.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/solidity/test/opCodes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/solidity/truffle-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/solidity/truffle-config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +47,13 @@
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1Zmp909HUhsL4cGbWMdOHuVmzjd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -33,7 +72,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,8 +87,8 @@
       <recent name="$PROJECT_DIR$/cmd" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/ethereum/go-ethereum/lm">
-    <configuration name="go build github.com/ethereum/go-ethereum/cmd/geth" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build github.com/ethereum/go-ethereum/cmd/geth console">
+    <configuration name="go build github.com/ethereum/go-ethereum/cmd/geth console" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lm-testnet" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
@@ -78,11 +117,16 @@
       <pattern value="^TestWelcome$" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Go Build.go build github.com/ethereum/go-ethereum/cmd/geth console" />
+      <item itemvalue="Go Build.go build github.com/ethereum/go-ethereum/lm" />
+      <item itemvalue="Go Test.TestWelcome in github.com/ethereum/go-ethereum/console" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/ethereum/go-ethereum/cmd/geth console" />
         <item itemvalue="Go Build.go build github.com/ethereum/go-ethereum/lm" />
         <item itemvalue="Go Test.TestWelcome in github.com/ethereum/go-ethereum/console" />
-        <item itemvalue="Go Build.go build github.com/ethereum/go-ethereum/cmd/geth" />
       </list>
     </recent_temporary>
   </component>
@@ -115,56 +159,80 @@
       <screen x="0" y="23" width="1440" height="841" />
     </state>
     <state x="392" y="69" key="#Go_Modules_(vgo)/0.23.1440.841@0.23.1440.841" timestamp="1585453982060" />
+    <state x="290" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586082956953">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="290" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.838@0.23.1440.838" timestamp="1586082956953" />
     <state x="456" y="253" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585568605185">
       <screen x="0" y="23" width="1440" height="842" />
     </state>
     <state x="456" y="253" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.842@0.23.1440.842" timestamp="1585568605185" />
-    <state width="1340" height="200" key="GridCell.Tab.0.bottom" timestamp="1585718568033">
-      <screen x="0" y="23" width="1440" height="842" />
+    <state x="534" y="103" key="#go_build_github.com/ethereum/go-ethereum/cmd/geth_console" timestamp="1586082984242">
+      <screen x="0" y="23" width="1440" height="838" />
     </state>
+    <state x="534" y="103" key="#go_build_github.com/ethereum/go-ethereum/cmd/geth_console/0.23.1440.838@0.23.1440.838" timestamp="1586082984242" />
+    <state width="1253" height="185" key="GridCell.Tab.0.bottom" timestamp="1586085803884">
+      <screen x="0" y="23" width="1440" height="839" />
+    </state>
+    <state width="1253" height="311" key="GridCell.Tab.0.bottom/0.23.1440.838@0.23.1440.838" timestamp="1586083177714" />
+    <state width="1253" height="185" key="GridCell.Tab.0.bottom/0.23.1440.839@0.23.1440.839" timestamp="1586085803884" />
     <state width="1340" height="233" key="GridCell.Tab.0.bottom/0.23.1440.841@0.23.1440.841" timestamp="1585480699656" />
     <state width="1340" height="200" key="GridCell.Tab.0.bottom/0.23.1440.842@0.23.1440.842" timestamp="1585718568033" />
-    <state width="1340" height="200" key="GridCell.Tab.0.center" timestamp="1585718568032">
-      <screen x="0" y="23" width="1440" height="842" />
+    <state width="1253" height="185" key="GridCell.Tab.0.center" timestamp="1586085803884">
+      <screen x="0" y="23" width="1440" height="839" />
     </state>
+    <state width="1253" height="311" key="GridCell.Tab.0.center/0.23.1440.838@0.23.1440.838" timestamp="1586083177712" />
+    <state width="1253" height="185" key="GridCell.Tab.0.center/0.23.1440.839@0.23.1440.839" timestamp="1586085803884" />
     <state width="1340" height="233" key="GridCell.Tab.0.center/0.23.1440.841@0.23.1440.841" timestamp="1585480699655" />
     <state width="1340" height="200" key="GridCell.Tab.0.center/0.23.1440.842@0.23.1440.842" timestamp="1585718568032" />
-    <state width="1340" height="200" key="GridCell.Tab.0.left" timestamp="1585718568031">
-      <screen x="0" y="23" width="1440" height="842" />
+    <state width="1253" height="185" key="GridCell.Tab.0.left" timestamp="1586085803883">
+      <screen x="0" y="23" width="1440" height="839" />
     </state>
+    <state width="1253" height="311" key="GridCell.Tab.0.left/0.23.1440.838@0.23.1440.838" timestamp="1586083177712" />
+    <state width="1253" height="185" key="GridCell.Tab.0.left/0.23.1440.839@0.23.1440.839" timestamp="1586085803883" />
     <state width="1340" height="233" key="GridCell.Tab.0.left/0.23.1440.841@0.23.1440.841" timestamp="1585480699655" />
     <state width="1340" height="200" key="GridCell.Tab.0.left/0.23.1440.842@0.23.1440.842" timestamp="1585718568031" />
-    <state width="1340" height="200" key="GridCell.Tab.0.right" timestamp="1585718568033">
-      <screen x="0" y="23" width="1440" height="842" />
+    <state width="1253" height="185" key="GridCell.Tab.0.right" timestamp="1586085803884">
+      <screen x="0" y="23" width="1440" height="839" />
     </state>
+    <state width="1253" height="311" key="GridCell.Tab.0.right/0.23.1440.838@0.23.1440.838" timestamp="1586083177713" />
+    <state width="1253" height="185" key="GridCell.Tab.0.right/0.23.1440.839@0.23.1440.839" timestamp="1586085803884" />
     <state width="1340" height="233" key="GridCell.Tab.0.right/0.23.1440.841@0.23.1440.841" timestamp="1585480699655" />
     <state width="1340" height="200" key="GridCell.Tab.0.right/0.23.1440.842@0.23.1440.842" timestamp="1585718568033" />
-    <state width="1340" height="200" key="GridCell.Tab.1.bottom" timestamp="1585718568034">
-      <screen x="0" y="23" width="1440" height="842" />
+    <state width="1253" height="185" key="GridCell.Tab.1.bottom" timestamp="1586085803886">
+      <screen x="0" y="23" width="1440" height="839" />
     </state>
+    <state width="1253" height="185" key="GridCell.Tab.1.bottom/0.23.1440.838@0.23.1440.838" timestamp="1586082995909" />
+    <state width="1253" height="185" key="GridCell.Tab.1.bottom/0.23.1440.839@0.23.1440.839" timestamp="1586085803886" />
     <state width="1340" height="200" key="GridCell.Tab.1.bottom/0.23.1440.842@0.23.1440.842" timestamp="1585718568034" />
-    <state width="1340" height="200" key="GridCell.Tab.1.center" timestamp="1585718568034">
-      <screen x="0" y="23" width="1440" height="842" />
+    <state width="1253" height="185" key="GridCell.Tab.1.center" timestamp="1586085803885">
+      <screen x="0" y="23" width="1440" height="839" />
     </state>
+    <state width="1253" height="185" key="GridCell.Tab.1.center/0.23.1440.838@0.23.1440.838" timestamp="1586082995908" />
+    <state width="1253" height="185" key="GridCell.Tab.1.center/0.23.1440.839@0.23.1440.839" timestamp="1586085803885" />
     <state width="1340" height="200" key="GridCell.Tab.1.center/0.23.1440.842@0.23.1440.842" timestamp="1585718568034" />
-    <state width="1340" height="200" key="GridCell.Tab.1.left" timestamp="1585718568033">
-      <screen x="0" y="23" width="1440" height="842" />
+    <state width="1253" height="185" key="GridCell.Tab.1.left" timestamp="1586085803884">
+      <screen x="0" y="23" width="1440" height="839" />
     </state>
+    <state width="1253" height="185" key="GridCell.Tab.1.left/0.23.1440.838@0.23.1440.838" timestamp="1586082995908" />
+    <state width="1253" height="185" key="GridCell.Tab.1.left/0.23.1440.839@0.23.1440.839" timestamp="1586085803884" />
     <state width="1340" height="200" key="GridCell.Tab.1.left/0.23.1440.842@0.23.1440.842" timestamp="1585718568033" />
-    <state width="1340" height="200" key="GridCell.Tab.1.right" timestamp="1585718568034">
-      <screen x="0" y="23" width="1440" height="842" />
+    <state width="1253" height="185" key="GridCell.Tab.1.right" timestamp="1586085803886">
+      <screen x="0" y="23" width="1440" height="839" />
     </state>
+    <state width="1253" height="185" key="GridCell.Tab.1.right/0.23.1440.838@0.23.1440.838" timestamp="1586082995909" />
+    <state width="1253" height="185" key="GridCell.Tab.1.right/0.23.1440.839@0.23.1440.839" timestamp="1586085803886" />
     <state width="1340" height="200" key="GridCell.Tab.1.right/0.23.1440.842@0.23.1440.842" timestamp="1585718568034" />
     <state x="243" y="32" key="SettingsEditor" timestamp="1585574119434">
       <screen x="0" y="23" width="1440" height="843" />
     </state>
     <state x="243" y="32" key="SettingsEditor/0.23.1440.843@0.23.1440.843" timestamp="1585574119434" />
     <state x="243" y="32" key="SettingsEditor/0.23.1440.844@0.23.1440.844" timestamp="1585459537326" />
-    <state x="407" y="42" width="816" height="821" key="find.popup" timestamp="1585918596877">
-      <screen x="0" y="23" width="1440" height="840" />
+    <state x="407" y="42" width="816" height="819" key="find.popup" timestamp="1586280621259">
+      <screen x="0" y="23" width="1440" height="838" />
     </state>
-    <state x="407" y="42" width="816" height="819" key="find.popup/0.23.1440.838@0.23.1440.838" timestamp="1585916300323" />
-    <state x="407" y="42" width="816" height="820" key="find.popup/0.23.1440.839@0.23.1440.839" timestamp="1585917447833" />
+    <state x="407" y="42" width="816" height="819" key="find.popup/0.23.1440.838@0.23.1440.838" timestamp="1586280621259" />
+    <state x="407" y="42" width="816" height="820" key="find.popup/0.23.1440.839@0.23.1440.839" timestamp="1585990447485" />
     <state x="407" y="42" width="816" height="821" key="find.popup/0.23.1440.840@0.23.1440.840" timestamp="1585918596877" />
     <state x="388" y="123" width="816" height="550" key="find.popup/0.23.1440.841@0.23.1440.841" timestamp="1585635682550" />
     <state x="407" y="43" width="816" height="822" key="find.popup/0.23.1440.842@0.23.1440.842" timestamp="1585719012560" />

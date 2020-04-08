@@ -66,12 +66,13 @@ type udpTest struct {
 }
 
 func newUDPTest(t *testing.T) *udpTest {
+	//save
 	test := &udpTest{
 		t:          t,
 		pipe:       newpipe(),
 		localkey:   newkey(),
 		remotekey:  newkey(),
-		remoteaddr: &net.UDPAddr{IP: net.IP{10, 0, 1, 99}, Port: 30303},
+		remoteaddr: &net.UDPAddr{IP: net.IP{10, 0, 1, 99}, Port: 30103},
 	}
 
 	test.db, _ = enode.OpenDB("")

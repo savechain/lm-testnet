@@ -46,7 +46,7 @@ import (
 )
 
 const (
-	//tom修改
+	//save
 	clientIdentifier = "geth" // Client identifier to advertise over the network
 )
 
