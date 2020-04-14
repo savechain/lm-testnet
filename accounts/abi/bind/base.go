@@ -101,6 +101,7 @@ func DeployContract(opts *TransactOpts, abi abi.ABI, bytecode []byte, backend Co
 	// Otherwise try to deploy the contract
 	c := NewBoundContract(common.Address{}, abi, backend, backend, backend)
 
+
 	input, err := c.abi.Pack("", params...)
 	if err != nil {
 		return common.Address{}, nil, nil, err

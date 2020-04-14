@@ -44,6 +44,7 @@ func DeployCheckpointOracle(auth *bind.TransactOpts, backend bind.ContractBacken
 		return common.Address{}, nil, nil, err
 	}
 	return address, tx, &CheckpointOracle{CheckpointOracleCaller: CheckpointOracleCaller{contract: contract}, CheckpointOracleTransactor: CheckpointOracleTransactor{contract: contract}, CheckpointOracleFilterer: CheckpointOracleFilterer{contract: contract}}, nil
+
 }
 
 // CheckpointOracle is an auto generated Go binding around an Ethereum contract.

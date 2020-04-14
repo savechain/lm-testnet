@@ -719,6 +719,7 @@ func (api *RetestethAPI) GetBalance(ctx context.Context, address common.Address,
 	if err != nil {
 		return nil, err
 	}
+
 	return (*math.HexOrDecimal256)(statedb.GetBalance(address)), nil
 }
 

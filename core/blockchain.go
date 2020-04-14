@@ -104,6 +104,7 @@ const (
 	// - Version 7
 	//  The following incompatible database changes were added:
 	//    * Use freezer as the ancient database to maintain all ancient data
+	//save
 	BlockChainVersion uint64 = 7
 )
 

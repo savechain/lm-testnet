@@ -2,7 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3001ef33-86f6-404f-aca4-c81775d7c22f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/lm-testnet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/savechain.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consensus/ethash/blocklist.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/abi/bind/base.go" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/abi/bind/base.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bin/abidump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bin/abigen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bin/bootnode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bin/checkpoint-admin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bin/clef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bin/devp2p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bin/ethkey" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bin/evm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bin/examples" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bin/faucet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bin/geth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bin/p2psim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bin/puppeth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bin/rlpdump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bin/wnode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consensus/ethash/consensus.go" beforeDir="false" afterPath="$PROJECT_DIR$/consensus/ethash/consensus.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/checkpointoracle/contract/oracle.go" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/checkpointoracle/contract/oracle.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/blockchain.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/blockchain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/genesis_alloc.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/genesis_alloc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eth/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/eth/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethclient/ethclient.go" beforeDir="false" afterPath="$PROJECT_DIR$/ethclient/ethclient.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/defaults.go" beforeDir="false" afterPath="$PROJECT_DIR$/node/defaults.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/params/bootnodes.go" beforeDir="false" afterPath="$PROJECT_DIR$/params/bootnodes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/params/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/params/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save/retesteth.go" beforeDir="false" afterPath="$PROJECT_DIR$/save/retesteth.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +51,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Zmp909HUhsL4cGbWMdOHuVmzjd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -40,7 +69,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/consensus/ethash" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,11 +80,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/consensus/ethash" />
       <recent name="$PROJECT_DIR$/totoro" />
       <recent name="$PROJECT_DIR$/cmd" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/ethereum/go-ethereum/cmd/geth console">
+  <component name="RunManager" selected="Go Test.TestCalcDifficulty in github.com/ethereum/go-ethereum/consensus/ethash">
     <configuration name="go build github.com/ethereum/go-ethereum/cmd/geth console" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="savechain" />
       <working_directory value="$PROJECT_DIR$" />
@@ -74,6 +104,28 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="TestCalcDifficulty in github.com/ethereum/go-ethereum/consensus/ethash" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="savechain" />
+      <working_directory value="$PROJECT_DIR$/consensus/ethash" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/ethereum/go-ethereum/consensus/ethash" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestCalcDifficulty$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCheckpointRegister in github.com/ethereum/go-ethereum/contracts/checkpointoracle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="savechain" />
+      <working_directory value="$PROJECT_DIR$/contracts/checkpointoracle" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/ethereum/go-ethereum/contracts/checkpointoracle" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestCheckpointRegister$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestWelcome in github.com/ethereum/go-ethereum/console" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="savechain" />
       <working_directory value="$PROJECT_DIR$/console" />
@@ -89,9 +141,13 @@
       <item itemvalue="Go Build.go build github.com/ethereum/go-ethereum/cmd/geth console" />
       <item itemvalue="Go Build.go build github.com/ethereum/go-ethereum/lm" />
       <item itemvalue="Go Test.TestWelcome in github.com/ethereum/go-ethereum/console" />
+      <item itemvalue="Go Test.TestCheckpointRegister in github.com/ethereum/go-ethereum/contracts/checkpointoracle" />
+      <item itemvalue="Go Test.TestCalcDifficulty in github.com/ethereum/go-ethereum/consensus/ethash" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCalcDifficulty in github.com/ethereum/go-ethereum/consensus/ethash" />
+        <item itemvalue="Go Test.TestCheckpointRegister in github.com/ethereum/go-ethereum/contracts/checkpointoracle" />
         <item itemvalue="Go Build.go build github.com/ethereum/go-ethereum/cmd/geth console" />
         <item itemvalue="Go Build.go build github.com/ethereum/go-ethereum/lm" />
         <item itemvalue="Go Test.TestWelcome in github.com/ethereum/go-ethereum/console" />
@@ -131,42 +187,43 @@
       <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="290" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.838@0.23.1440.838" timestamp="1586082956953" />
-    <state x="456" y="253" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585568605185">
-      <screen x="0" y="23" width="1440" height="842" />
+    <state x="456" y="252" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586345680973">
+      <screen x="0" y="23" width="1440" height="838" />
     </state>
+    <state x="456" y="252" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.838@0.23.1440.838" timestamp="1586345680973" />
     <state x="456" y="253" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.842@0.23.1440.842" timestamp="1585568605185" />
     <state x="534" y="103" key="#go_build_github.com/ethereum/go-ethereum/cmd/geth_console" timestamp="1586082984242">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="534" y="103" key="#go_build_github.com/ethereum/go-ethereum/cmd/geth_console/0.23.1440.838@0.23.1440.838" timestamp="1586082984242" />
-    <state width="1253" height="185" key="GridCell.Tab.0.bottom" timestamp="1586085803884">
-      <screen x="0" y="23" width="1440" height="839" />
+    <state width="1233" height="242" key="GridCell.Tab.0.bottom" timestamp="1586849306893">
+      <screen x="0" y="23" width="1440" height="841" />
     </state>
     <state width="1253" height="311" key="GridCell.Tab.0.bottom/0.23.1440.838@0.23.1440.838" timestamp="1586083177714" />
     <state width="1253" height="185" key="GridCell.Tab.0.bottom/0.23.1440.839@0.23.1440.839" timestamp="1586085803884" />
-    <state width="1340" height="233" key="GridCell.Tab.0.bottom/0.23.1440.841@0.23.1440.841" timestamp="1585480699656" />
-    <state width="1340" height="200" key="GridCell.Tab.0.bottom/0.23.1440.842@0.23.1440.842" timestamp="1585718568033" />
-    <state width="1253" height="185" key="GridCell.Tab.0.center" timestamp="1586085803884">
-      <screen x="0" y="23" width="1440" height="839" />
+    <state width="1233" height="242" key="GridCell.Tab.0.bottom/0.23.1440.841@0.23.1440.841" timestamp="1586849306893" />
+    <state width="1342" height="157" key="GridCell.Tab.0.bottom/0.23.1440.842@0.23.1440.842" timestamp="1586683401772" />
+    <state width="1233" height="242" key="GridCell.Tab.0.center" timestamp="1586849306893">
+      <screen x="0" y="23" width="1440" height="841" />
     </state>
     <state width="1253" height="311" key="GridCell.Tab.0.center/0.23.1440.838@0.23.1440.838" timestamp="1586083177712" />
     <state width="1253" height="185" key="GridCell.Tab.0.center/0.23.1440.839@0.23.1440.839" timestamp="1586085803884" />
-    <state width="1340" height="233" key="GridCell.Tab.0.center/0.23.1440.841@0.23.1440.841" timestamp="1585480699655" />
-    <state width="1340" height="200" key="GridCell.Tab.0.center/0.23.1440.842@0.23.1440.842" timestamp="1585718568032" />
-    <state width="1253" height="185" key="GridCell.Tab.0.left" timestamp="1586085803883">
-      <screen x="0" y="23" width="1440" height="839" />
+    <state width="1233" height="242" key="GridCell.Tab.0.center/0.23.1440.841@0.23.1440.841" timestamp="1586849306893" />
+    <state width="1342" height="157" key="GridCell.Tab.0.center/0.23.1440.842@0.23.1440.842" timestamp="1586683401772" />
+    <state width="1233" height="242" key="GridCell.Tab.0.left" timestamp="1586849306893">
+      <screen x="0" y="23" width="1440" height="841" />
     </state>
     <state width="1253" height="311" key="GridCell.Tab.0.left/0.23.1440.838@0.23.1440.838" timestamp="1586083177712" />
     <state width="1253" height="185" key="GridCell.Tab.0.left/0.23.1440.839@0.23.1440.839" timestamp="1586085803883" />
-    <state width="1340" height="233" key="GridCell.Tab.0.left/0.23.1440.841@0.23.1440.841" timestamp="1585480699655" />
-    <state width="1340" height="200" key="GridCell.Tab.0.left/0.23.1440.842@0.23.1440.842" timestamp="1585718568031" />
-    <state width="1253" height="185" key="GridCell.Tab.0.right" timestamp="1586085803884">
-      <screen x="0" y="23" width="1440" height="839" />
+    <state width="1233" height="242" key="GridCell.Tab.0.left/0.23.1440.841@0.23.1440.841" timestamp="1586849306893" />
+    <state width="1342" height="157" key="GridCell.Tab.0.left/0.23.1440.842@0.23.1440.842" timestamp="1586683401771" />
+    <state width="1233" height="242" key="GridCell.Tab.0.right" timestamp="1586849306893">
+      <screen x="0" y="23" width="1440" height="841" />
     </state>
     <state width="1253" height="311" key="GridCell.Tab.0.right/0.23.1440.838@0.23.1440.838" timestamp="1586083177713" />
     <state width="1253" height="185" key="GridCell.Tab.0.right/0.23.1440.839@0.23.1440.839" timestamp="1586085803884" />
-    <state width="1340" height="233" key="GridCell.Tab.0.right/0.23.1440.841@0.23.1440.841" timestamp="1585480699655" />
-    <state width="1340" height="200" key="GridCell.Tab.0.right/0.23.1440.842@0.23.1440.842" timestamp="1585718568033" />
+    <state width="1233" height="242" key="GridCell.Tab.0.right/0.23.1440.841@0.23.1440.841" timestamp="1586849306893" />
+    <state width="1342" height="157" key="GridCell.Tab.0.right/0.23.1440.842@0.23.1440.842" timestamp="1586683401772" />
     <state width="1253" height="185" key="GridCell.Tab.1.bottom" timestamp="1586085803886">
       <screen x="0" y="23" width="1440" height="839" />
     </state>
@@ -196,19 +253,21 @@
     </state>
     <state x="243" y="32" key="SettingsEditor/0.23.1440.843@0.23.1440.843" timestamp="1585574119434" />
     <state x="243" y="32" key="SettingsEditor/0.23.1440.844@0.23.1440.844" timestamp="1585459537326" />
-    <state x="407" y="42" width="816" height="819" key="find.popup" timestamp="1586280621259">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state x="388" y="123" width="816" height="552" key="find.popup" timestamp="1586853805257">
+      <screen x="0" y="23" width="1440" height="844" />
     </state>
-    <state x="407" y="42" width="816" height="819" key="find.popup/0.23.1440.838@0.23.1440.838" timestamp="1586280621259" />
-    <state x="407" y="42" width="816" height="820" key="find.popup/0.23.1440.839@0.23.1440.839" timestamp="1585990447485" />
-    <state x="407" y="42" width="816" height="821" key="find.popup/0.23.1440.840@0.23.1440.840" timestamp="1585918596877" />
-    <state x="388" y="123" width="816" height="550" key="find.popup/0.23.1440.841@0.23.1440.841" timestamp="1585635682550" />
-    <state x="407" y="43" width="816" height="822" key="find.popup/0.23.1440.842@0.23.1440.842" timestamp="1585719012560" />
+    <state x="407" y="42" width="816" height="819" key="find.popup/0.23.1440.838@0.23.1440.838" timestamp="1586346596836" />
+    <state x="407" y="42" width="816" height="820" key="find.popup/0.23.1440.839@0.23.1440.839" timestamp="1586351799170" />
+    <state x="407" y="42" width="816" height="821" key="find.popup/0.23.1440.840@0.23.1440.840" timestamp="1586349837698" />
+    <state x="388" y="123" width="816" height="550" key="find.popup/0.23.1440.841@0.23.1440.841" timestamp="1586850016257" />
+    <state x="407" y="43" width="816" height="822" key="find.popup/0.23.1440.842@0.23.1440.842" timestamp="1586842798776" />
     <state x="407" y="43" width="816" height="823" key="find.popup/0.23.1440.843@0.23.1440.843" timestamp="1585574214064" />
-    <state x="400" y="186" width="670" height="676" key="search.everywhere.popup" timestamp="1585917466353">
-      <screen x="0" y="23" width="1440" height="839" />
+    <state x="388" y="123" width="816" height="552" key="find.popup/0.23.1440.844@0.23.1440.844" timestamp="1586853805257" />
+    <state x="400" y="187" width="670" height="679" key="search.everywhere.popup" timestamp="1586839400003">
+      <screen x="0" y="23" width="1440" height="842" />
     </state>
     <state x="400" y="186" width="670" height="676" key="search.everywhere.popup/0.23.1440.839@0.23.1440.839" timestamp="1585917466353" />
+    <state x="400" y="187" width="670" height="679" key="search.everywhere.popup/0.23.1440.842@0.23.1440.842" timestamp="1586839400003" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

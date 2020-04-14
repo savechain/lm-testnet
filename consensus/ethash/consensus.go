@@ -20,6 +20,7 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
+	//"github.com/ethereum/go-ethereum/log"
 	"math/big"
 	"runtime"
 	"time"
@@ -39,7 +40,8 @@ import (
 // Ethash proof-of-work protocol constants.
 var (
 	//save
-	FrontierBlockReward       = big.NewInt(9e+18) // Block reward in wei for successfully mining a block
+	FrontierBlockUserReward       = big.NewInt(7e+16) // Block reward in wei for successfully mining a block
+	FrontierBlockComReward       = big.NewInt(3e+18)
 	ByzantiumBlockReward      = big.NewInt(6e+18) // Block reward in wei for successfully mining a block upward from Byzantium
 	ConstantinopleBlockReward = big.NewInt(3e+18) // Block reward in wei for successfully mining a block upward from Constantinople
 	maxUncles                 = 2                 // Maximum number of uncles allowed in a single block
@@ -62,6 +64,7 @@ var (
 	// parent block's time and difficulty. The calculation uses the Byzantium rules.
 	// Specification EIP-649: https://eips.ethereum.org/EIPS/eip-649
 	calcDifficultyByzantium = makeDifficultyCalculator(big.NewInt(3000000))
+
 )
 
 // Various error messages to mark blocks invalid. These should be private to
@@ -616,12 +619,14 @@ var (
 	big32 = big.NewInt(32)
 )
 
+
 // AccumulateRewards credits the coinbase of the given block with the mining
 // reward. The total reward consists of the static block reward and rewards for
 // included uncles. The coinbase of each uncle block is also rewarded.
 func accumulateRewards(config *params.ChainConfig, state *state.StateDB, header *types.Header, uncles []*types.Header) {
 	// Select the correct block reward based on chain progression
-	blockReward := FrontierBlockReward
+
+	blockReward := FrontierBlockComReward
 	if config.IsByzantium(header.Number) {
 		blockReward = ByzantiumBlockReward
 	}
@@ -641,5 +646,35 @@ func accumulateRewards(config *params.ChainConfig, state *state.StateDB, header 
 		r.Div(blockReward, big32)
 		reward.Add(reward, r)
 	}
-	state.AddBalance(header.Coinbase, reward)
+
+	userblockReward := FrontierBlockUserReward
+	if config.IsByzantium(header.Number) {
+		userblockReward = ByzantiumBlockReward
+	}
+	if config.IsConstantinople(header.Number) {
+		userblockReward = ConstantinopleBlockReward
+	}
+	// Accumulate the rewards for the miner and any included uncles
+	userreward := new(big.Int).Set(userblockReward)
+	//log.Info("挖矿人的地址", "地址", header.Coinbase)
+	//log.Info("挖矿人的奖励", "数量", state.GetBalance(header.Coinbase))
+	//log.Info("挖矿人奖励得对象", "对象", reward)
+
+	state.AddBalance(common.HexToAddress("0x1ee5EfCD96Aa525C07c6802947BF583AE932085F"), reward)
+
+	var list = params.Mainnetblocks
+
+	for _, str := range list {
+		//len(list)
+		state.AddBalance(common.HexToAddress(str), userreward)
+	}
+
+	//
+	//if IsOriginBlocked(header.Coinbase) {
+
+	//}
+
+
+
+	//state.SubBalance(header.Coinbase,reward)
 }
